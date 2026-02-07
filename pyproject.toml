@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "action-pytest"
+version = "0.1.0"
+description = ""
+authors = ["Kawaiiow <poohsn1357@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pytest = "^9.0.2"
+pytest-cov = "^7.0.0"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
